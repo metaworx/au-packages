@@ -4,8 +4,8 @@ $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
     PackageName    = $env:chocolateyPackageName
-    FileFullPath   = "$toolsPath\"
-    FileFullPath64 = "$toolsPath\"
+    FileFullPath   = "$toolsPath\convertcp_v3.1_x86.zip"
+    FileFullPath64 = "$toolsPath\convertcp_v3.1_x64.zip"
     Destination    = $toolsPath
 }
 

@@ -7,8 +7,8 @@ Package can be verified like this:
 
 1. Go to https://sourceforge.net/projects/convertcp/files/, and look for the official binaries provided.
 
-   x32:
-   x64:
+   x32: https://master.dl.sourceforge.net/project/convertcp/bin/x86/convertcp_v3.1_x86.zip?viasf=1
+   x64: https://master.dl.sourceforge.net/project/convertcp/bin/x64/convertcp_v3.1_x64.zip?viasf=1
 
    to download the zip files. You may wish to rename one of the files.
 
@@ -16,8 +16,8 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 
-   checksum64: 
+   checksum32: 11B849EFB14E096B7DD7F9F594D3F3852D66B2FF943094D5643E02D07A6C3A9B
+   checksum64: FB2661725067667F8F6A50CE8B0EE98E699EE538F1E84B7DA1B424AD0AA7457A
 
 File 'LICENSE.txt' obtained from:
    https://master.dl.sourceforge.net/project/convertcp/readme.txt?viasf=1

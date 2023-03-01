@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>convertcp</id>
-    <version>0.0</version>
+    <version>3.1</version>
     <packageSourceUrl>https://github.com/metaworx/chocolatey-packages/tree/master/automatic/convertcp</packageSourceUrl>
     <owners>Martin Rüegg</owners>
     <title>CONVERTCP</title>
