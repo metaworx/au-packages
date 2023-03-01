@@ -1,4 +1,4 @@
-# <img src="https://a.fsdn.com/allura/p/convertcp/icon?1627231116?&amp;w=90" width="48" height="48"/> [CONVERTCP](https://chocolatey.org/packages/convertcp)
+# <img src="https://raw.githubusercontent.com/metaworx/au-packages/master/convertcp/convertcp.png" width="48" height="48"/> [CONVERTCP](https://chocolatey.org/packages/convertcp)
 
 CONVERTCP is a command line codepage converter.
 

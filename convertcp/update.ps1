@@ -1,5 +1,8 @@
 [CmdletBinding()]
-param()
+param(
+    [switch]$force,
+    [switch]$NoCheckChocoVersion
+)
 
 import-module au
 
@@ -65,7 +68,7 @@ function global:au_GetLatest {
 
 try {
     if ($MyInvocation.InvocationName -ne '.') {
-        update -ChecksumFor none
+        update -ChecksumFor none @PSBoundParameters
     }
 } catch {
 #    $ignore = "Unable to connect to the remote server"

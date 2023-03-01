@@ -4,19 +4,19 @@
   <metadata>
     <id>convertcp</id>
     <version>3.1</version>
-    <packageSourceUrl>https://github.com/metaworx/chocolatey-packages/tree/master/automatic/convertcp</packageSourceUrl>
+    <packageSourceUrl>https://github.com/metaworx/au-packages/tree/master/convertcp</packageSourceUrl>
     <owners>Martin Rüegg</owners>
     <title>CONVERTCP</title>
     <authors>Steffen Illhardt</authors>
     <projectUrl>https://sourceforge.net/projects/convertcp/</projectUrl>
-    <iconUrl>https://a.fsdn.com/allura/p/convertcp/icon?1627231116?&amp;w=90</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/metaworx/au-packages/master/convertcp/convertcp.png</iconUrl>
     <copyright>2016-2022 Steffen Illhardt</copyright>
-    <licenseUrl>https://sourceforge.net/directory/?license=mit-license</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/metaworx/au-packages/master/convertcp/legal/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/projects/convertcp/files/src/</projectSourceUrl>
     <docsUrl>https://sourceforge.net/projects/convertcp/files/#2-usage-of-the-convertcpexe-command-line-utility</docsUrl>
-    <bugTrackerUrl>http://go.microsoft.com/fwlink/?LinkID=113216</bugTrackerUrl>
-    <tags>foss-cli-convert-encoding-codepage</tags>
+    <bugTrackerUrl>https://sourceforge.net/p/convertcp/discussion/general/</bugTrackerUrl>
+    <tags>foss cli convert encoding codepage files streams</tags>
     <summary>CONVERTCP is a command line codepage converter and converts a stream of characters to another code page</summary>
     <description><![CDATA[CONVERTCP is a command line codepage converter.
 
@@ -29,12 +29,14 @@
 ## Notes
 
 - It shall work on Windows XP onwards (tested on XP, Windows 7, Windows 8.1, Windows 10, and Windows 11).
-- The support is restricted
-  1. by the shared characters of both used code pages. If a read character has no equivalent the implementations of the used API functions decide if they * either convert to the approximated ASCII character (e.g. Š to S) * or replace it with a default character (question mark or Unicode Replacement Character)
-  2. by the maximum number of bytes used to represent a character. The table outputted using option /l indicates in the second column whether or not a code page can be used by CONVERTCP for input streams greater than 511MB (while all listed code pages can be used for output streams independent of their size).
+- The support is restricted by
+  1. the shared characters of both used code pages. If a read character has no equivalent the implementations of the used API functions decide if they
+     * either convert to the approximated ASCII character (e.g. Š to S), or
+     * replace it with a default character (question mark or Unicode Replacement Character)
+  2. the maximum number of bytes used to represent a character. The table outputted using option /l indicates in the second column whether or not a code page can be used by CONVERTCP for input streams greater than 511MB (while all listed code pages can be used for output streams independent of their size).
 - It's a free and open source tool.
 ]]></description>
-    <releaseNotes>https://sourceforge.net/projects/convertcp/files/#2-usage-of-the-convertcpexe-command-line-utility#5-release-notes</releaseNotes>
+    <releaseNotes>https://sourceforge.net/projects/convertcp/files/#5-release-notes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
