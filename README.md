@@ -2,9 +2,9 @@
 <!-- EDIT ME-->
 
 [![](https://ci.appveyor.com/api/projects/status/github/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
-[Update status](https://gist.github.com/YOUR_GITHUB_USERNAME_HERE/YOUR_GIST_ID_HERE)
+[Update status](https://gist.github.com/martin-rueegg/d05f8e5196d076c80ae8d0c8c77f7b44)
 [![](http://transparent-favicon.info/favicon.ico)](#)
-[chocolatey/YOUR_CHOCOLATEY_USERNAME_HERE](https://chocolatey.org/profiles/YOUR_CHOCOLATEY_USERNAME_HERE)
+[chocolatey/metaworx](https://chocolatey.org/profiles/metaworx)
 
 <!-- EDIT ME-->
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
